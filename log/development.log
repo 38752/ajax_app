@@ -933,3 +933,213 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 1.2ms | Allocations: 5624)
 
 
+Started GET "/" for ::1 at 2022-12-06 17:59:05 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (2.2ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 1670)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/oomori/TechCamp/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 4df2a98807b4bb0a6f3d
+Version: webpack 4.46.0
+Time: 512ms
+Built at: 2022/12/06 17:59:06
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-fc6f8a4df9e2680330ff.js    120 KiB  application  [emitted] [immutable]  application
+js/application-fc6f8a4df9e2680330ff.js.map    134 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-fc6f8a4df9e2680330ff.js js/application-fc6f8a4df9e2680330ff.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 407 bytes {application} [built]
+[./app/javascript/packs/application.js] 784 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 1696ms (Views: 1689.3ms | ActiveRecord: 2.2ms | Allocations: 6807)
+
+
+Started GET "/" for ::1 at 2022-12-06 17:59:15 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1670)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 1.2ms | Allocations: 5626)
+
+
+Started GET "/" for ::1 at 2022-12-06 17:59:50 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (3.0ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1670)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/oomori/TechCamp/projects/ajax_app/public/packs
+[Webpacker] Hash: b5c42214936b83f2d72b
+Version: webpack 4.46.0
+Time: 454ms
+Built at: 2022/12/06 17:59:52
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-4e53ed7c62e2879ab797.js    120 KiB  application  [emitted] [immutable]  application
+js/application-4e53ed7c62e2879ab797.js.map    134 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-4e53ed7c62e2879ab797.js js/application-4e53ed7c62e2879ab797.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 406 bytes {application} [built]
+[./app/javascript/packs/application.js] 784 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 1598ms (Views: 1590.2ms | ActiveRecord: 3.0ms | Allocations: 6802)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:00:19 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 4052)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 13.6ms | ActiveRecord: 42.4ms | Allocations: 9085)
+
+
+Started POST "/posts" for ::1 at 2022-12-06 18:00:24 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"BNUSi4K/vpkpXOkCiYXkrWnrmRvfJRv316zrebkQK+kGkXBMMef+Bsl/Zok25hcRAkSvxfh/t2LT91HRxYa+Yw==", "content"=>"メモ③"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (5.4ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ③', '2022-12-06 09:00:24.539354', '2022-12-06 09:00:24.539354')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (ActiveRecord: 12.5ms | Allocations: 3094)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:00:24 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1691)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 0.8ms | Allocations: 5795)
+
+
+Started POST "/posts" for ::1 at 2022-12-06 18:00:29 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"BNUSi4K/vpkpXOkCiYXkrWnrmRvfJRv316zrebkQK+kGkXBMMef+Bsl/Zok25hcRAkSvxfh/t2LT91HRxYa+Yw==", "content"=>"メモ③"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (1.9ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ③', '2022-12-06 09:00:29.194163', '2022-12-06 09:00:29.194163')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 2.7ms | Allocations: 2751)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:00:29 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1712)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.9ms | Allocations: 5668)
+
+
+Started POST "/posts" for ::1 at 2022-12-06 18:00:30 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"BNUSi4K/vpkpXOkCiYXkrWnrmRvfJRv316zrebkQK+kGkXBMMef+Bsl/Zok25hcRAkSvxfh/t2LT91HRxYa+Yw==", "content"=>"メモ③"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (0.7ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ③', '2022-12-06 09:00:30.780354', '2022-12-06 09:00:30.780354')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.7ms | Allocations: 2752)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:00:30 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1733)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.9ms | Allocations: 5679)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:00:31 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1733)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 1.3ms | Allocations: 5685)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:03:08 +0900
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (5.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 4877)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 13.5ms | ActiveRecord: 9.0ms | Allocations: 14257)
+
+
+Started POST "/posts" for ::1 at 2022-12-06 18:03:26 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"AL3culpehf0T/vJURIGEqj5Rts+6725T3wcDKL4mMfMC+b596QbFYvPdfd/74ncWVf6AEZ21wsbbXLmAwrCkeQ==", "content"=>"binding.pry"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):1:in `create'
+  [1m[36mPost Create (8.9ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('binding.pry', '2022-12-06 09:03:39.944036', '2022-12-06 09:03:39.944036')[0m
+  ↳ (pry):1:in `create'
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ (pry):1:in `create'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[36mPost Create (0.7ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('binding.pry', '2022-12-06 09:04:13.845146', '2022-12-06 09:04:13.845146')[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 47242ms (ActiveRecord: 21.5ms | Allocations: 34180)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:04:13 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1788)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.6ms | Allocations: 6054)
+
+
+Started GET "/" for ::1 at 2022-12-06 18:04:21 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1898)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.9ms | Allocations: 5869)
+
+
