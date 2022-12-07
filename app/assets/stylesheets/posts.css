@@ -2,13 +2,13 @@
   background-color: lightblue ;
   z-index: 2;
   position: fixed;
-  top: 0;
+  top: -24px;
   right: 0;
   left: 0;
   padding-left: 10px;
 }
 .form-header {
-  margin-top: 100px;
+  margin-top: 60px;
   background-color: lightgray;
   border-radius: 5px 5px 0 0 ;
   width: 130px;
@@ -48,4 +48,8 @@
 .post-date{
   color: gray;
 }
-
+.post-content {
+  word-break: break-all;
+  max-height: 200px;
+  overflow: scroll;
+}
