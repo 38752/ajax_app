@@ -1531,3 +1531,39 @@ puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
 puma (4.3.12) lib/puma/server.rb:476:in `process_client'
 puma (4.3.12) lib/puma/server.rb:332:in `block in run'
 puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-12-06 21:37:49 +0900
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (5.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 5231)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/oomori/TechCamp/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 83273f3759591c07da2e
+Version: webpack 4.46.0
+Time: 517ms
+Built at: 2022/12/06 21:37:51
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-32e39a181d54b422f2de.js    121 KiB  application  [emitted] [immutable]  application
+js/application-32e39a181d54b422f2de.js.map    135 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-32e39a181d54b422f2de.js js/application-32e39a181d54b422f2de.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 1.15 KiB {application} [built]
+[./app/javascript/packs/application.js] 784 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 1842ms (Views: 1819.0ms | ActiveRecord: 13.8ms | Allocations: 15806)
+
+
