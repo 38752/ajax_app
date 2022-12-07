@@ -1,0 +1,4 @@
+<%= form_with url:  "/posts", method: :post,id: "form" do |form| %>
+  <%= form.text_field :content  , id: "content", placeholder: "type a comment", class: "textfield" %>
+  <%= form.submit '投稿する' , id: "submit", class: "sbmit-btn" %>
+<% end %>
