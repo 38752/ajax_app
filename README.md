@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* Internal Database URL
+postgres://ajaxapp_production_827o_user:bwyFuRlDchtr1cwgNjd9esZivHjA2wwc@dpg-ce83bj9gp3jic2e513ig-a/ajaxapp_production_827o

@@ -30,9 +30,8 @@ function post (){
       };
       const list = document.getElementById("list");
       const formText = document.getElementById("content");
-        list.insertAdjacentHTML("afterend", html);
-        list.insertAdjacentHTML("afterend", buildHTML(XHR));
-        formText.value = "";
+      list.insertAdjacentHTML("afterend", buildHTML(XHR));
+      formText.value = "";
     };
   });
 };
